@@ -1,0 +1,19 @@
+                                                                     FRUIT DETECTION APP
+
+
+This system collects images from the camera and has a stored database consisting of thousands of fruits, both rotten or fresh.
+Then image processing is done to get the required features of fruit the such as color and size. Defected fruit is detected based on image pixels. 
+Sorting is done based on color and size.
+The objective of the Fruit detection app using image processing is to design an incremental model to recognize the fruits based on the fruit's size,
+shape, and color, ignoring external features like environment, noise, and background.
+
+Algorithm:
+
+Step 1: Input the fruit dataset image to check the fruit.
+Step 2: Pre-process the original RGB image by thresholding it into a grayscale and binary image.
+Step 3: Filter the image to remove noise.
+Step 4: Subtract the background from the pre-processed image. 
+Step 5: Perform edge detection and fill the defective parts.
+Step 6: Calculate the area and quality ratio of the fruit image.
+Step 7: Apply the condition and display the result. 
+
